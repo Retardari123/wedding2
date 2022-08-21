@@ -1,0 +1,27 @@
+body{
+	background-image:url(zal.jpeg); фоновая картинка
+
+}
+#test{
+	transform:scale(0.6);
+	transition:3.0s all;
+	
+	background-color:#f379f4; задний фон
+	color:#000000; цвет
+	padding:10px; 
+	margin:10px; отталкивание
+	border: 5px solid #c5cce8; рамка
+	border-radius: 10px; закругление рамки
+	opacity:1;
+	box-shadow:10px 10px 15px #000000; тень рамки
+	display:block; вид рамки
+	text-align:center; расположение текста
+	font-size:75px; размер
+	font-weight:300px; ширина
+	margin-top:200px; отталкивание от верха
+	
+}
+#test:hover{
+	transform: rotate(45deg) scale(0.3);
+	background-color:#f8f8f8;
+}
